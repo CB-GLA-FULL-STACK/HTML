@@ -15,8 +15,6 @@ Topics include
 
 1. [Course Introduction](#section-1-course-introduction)
 2. [Introducing HTML](#section-2-introducing-html)
-    - 2a. [Introducing XHTML](#section-2a-introducing-xhtml)
-    - 2b. [Introducing HTML5](#section-2b-introducing-html5)
 3. [Basic page structure](#section-3-basic-page-structure)
 4. [Formatting page content](#section-4-formatting-page-content)
 5. [Structuring content](#section-5-structuring-content)
@@ -283,49 +281,7 @@ The web development world has two types of HTML editing programs:
     - Faster so helps to publish content at high speed
     - **Example**: Adobe DreamWeaver, WordPress editor
 
-Section 2a. Introducing XHTML
-=====================
 
-XHTML is HTML written/defined as an XML application. XHTML stands for Extensible Hypertext Markup Language.
-
-#### Prerequisite
-Before learning XHTML, you must have a basic knowledge of HTML.
-
-### 2a.1. What is XHTML?
-- XHTML stands for Extensible Hypertext Markup Language
-- XHTML is almost identical/similar/same as HTML but it is more important to create your code correctly, because XHTML is stricter than HTML in syntax and case sensitivity
-- XHTML is introduced to set Browser Compatibility and display similar O/P in various browsers as per Web 2.0 standards. Also to create and follow stricter/standard/well-formed code standards
-- XHTML 1.0 became a World Wide Web Consortium (W3C) Recommendation on January 26, 2000
-- XHTML is HTML redesigned as XML. It helps you to create better formatted code on your site
-
-### 2a.2. HTML vs XHTML?
-There are some changes in XHTML as compared to HTML. These changes can be categorized in below parts (The Most Important Differences from HTML):
-1. Changes in Document Structure
-    - All documents must have a DOCTYPE (XHTML DOCTYPE is mandatory)
-2. Changes in XHTML Tags (XHTML Elements)
-    - XHTML documents must have one root element
-    - XHTML elements must always be **closed/properly nested**
-    - XHTML elements must be in lowercase
-3. Changes in XHTML Attributes
-    - All XHTML attributes must be **quoted and added properly**
-
-### 2a.3. XHTML 
-> **Syntax & Example**:
-```html
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-    <head>
-        <title>xhtml document</title>
-    </head>
-
-    <body>
-        some xhtml content 
-    </body>
-
-</html>
 ```
 
 Section 2b. Introducing HTML5
@@ -336,7 +292,7 @@ HTML5 is the next generation of HTML.
 #### Prerequisite
 Before learning HTML5, you must have a basic knowledge of HTML, XHTML, CSS.
 
-### 2b.1. What is HTML5?
+### 2b. What is HTML5?
 HTML5 is the latest version of Hypertext Markup Language, the code that describes web pages. HTML5 is a co-operation of W3C (World Wide Web Consortium) and WHATWG(Web Hypertext Application Technology Working Group).
 
 ### 2b.2. Why HTML5?
