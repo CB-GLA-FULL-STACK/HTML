@@ -23,7 +23,7 @@ Topics include
 8. [Table - Working with Table](#section-8-working-with-table)
 9. [Form - Dealing with Forms](#section-9-dealing-with-forms)
 10. [HTML Layout](#section-10-html-layout)
-11. [What's the next step?](#section-11-whats-the-next-step)
+
 
 Section 1. Course Introduction
 =====================
@@ -850,7 +850,4 @@ There are different ways to create multicolumn layouts. Each way/layout techniqu
 - The `<table>` element was not designed to be a layout tool! Before the introduction to Div tag, web designers/developers use to follow table-based layout
 > **Note**: Do not use tables for your page layout! They will make code length, tedious and brings a mess into your code
 
-Section 11. What's the Next Step?
-=====================
 
-Brilliant job! You have done it! Thank You for looking into HTML5 Essentials/Fundamentals. I hope now you have better understandings of how HTML5 works. To learn more about HTML5 specifications visit [Latest HTML5 specifications](https://www.w3.org/TR/html53/) and https://html.spec.whatwg.org/. Your next step could be Mastering HTML5 Advanced features or look into [designing & styling with CSS3 fundamentals](https://github.com/dinanathsj29/css3-fundamentals). Best of Luck! Happy Learning! 
