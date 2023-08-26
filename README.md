@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/images/html5.png" alt="HTML5 (HyperText Markup Language) Essentials logo" title="HTML5 (HyperText Markup Language) Essentials" width="200" />
+    <img src="/images/html5.jpeg" alt="HTML5 (HyperText Markup Language) Essentials logo" title="HTML5 (HyperText Markup Language) Essentials" width="200" />
 </p>
 
 HTML5 Essentials
@@ -765,76 +765,50 @@ Section 9. Dealing with Forms
 > **Syntax & Example**:
 ```html
 <form name="enrollmentForm" action="#" method="post">
-
-    <table border="1" width="800" cellspacing="5" cellpadding="5">
-
-        <th colspan="2"><h1>Enrollment Form </h1></th>
-
-        <tr>
-            <td>First Name:</td>
-            <td><Input type="text" name="firstNameText" id="firstNameText1" /> </td>
-        </tr>
-
-        <tr>
-            <td>Last Name:</td>
-            <td><Input type="text" name="lastNameText" id="lastNameText1" /></td>
-        </tr>
-
-        <tr>
-            <td>Password:</td>
-            <td><Input type="password" name="password" id="password1" /></td>
-        </tr>
-
-        <tr>
-            <td>Gender:</td>
-            <td>
-                <input type="radio" name="gender" id="male" value="male" /> Male 
-                <input type="radio" name="gender" id="female" value="female" /> Female 
-                <input type="radio" name="gender" id="other" value="other" /> Other
-            </td>
-        </tr>
-
-        <tr>
-            <td>Hobby:</td>
-            <td>
-                <input type="checkbox" name="reading" id="reading" value="reading" /> Reading 
-                <input type="checkbox" name="music" id="music" value="music" /> Music 
-                <input type="checkbox" name="dance" id="dance" value="dance" /> Dance 
-                <input type="checkbox" name="sports" id="sports" value="sports" /> Sports 
-            </td>
-        </tr>
-
-        <tr>
-            <td>Country:</td>
-            <td>
-                <select name="country" id="country">
-                    <option value="india">India</option>
-                    <option value="usa">USA</option>
-                    <option value="uk">UK</option>
-                    <option value="nz">NZ</option>
-                </select>
-            </td>
-        </tr>
-
-        <tr>
-            <td>Comments:</td>
-            <td>
-                <textarea cols="40" rows="5">Enter Comments</textarea>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2">
-                <center>
-                    <input type="submit" name="submit" value="Submit">
-                    <input type="reset" name="reset" value="Reset" />
-                </center>
-            </td>
-        </tr>
-
-    </table> 
-
-</form>
+        <h1>Enrollment Form</h1>
+        
+        <label for="firstNameText">First Name:</label>
+        <input type="text" name="firstNameText" id="firstNameText1">
+        <br>
+        
+        <label for="lastNameText">Last Name:</label>
+        <input type="text" name="lastNameText" id="lastNameText1">
+        <br>
+        
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password1">
+        <br>
+        
+        <label>Gender:</label>
+        <input type="radio" name="gender" id="male" value="male"> Male
+        <input type="radio" name="gender" id="female" value="female"> Female
+        <input type="radio" name="gender" id="other" value="other"> Other
+        <br>
+        
+        <label>Hobby:</label>
+        <input type="checkbox" name="reading" id="reading" value="reading"> Reading
+        <input type="checkbox" name="music" id="music" value="music"> Music
+        <input type="checkbox" name="dance" id="dance" value="dance"> Dance
+        <input type="checkbox" name="sports" id="sports" value="sports"> Sports
+        <br>
+        
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="nz">NZ</option>
+        </select>
+        <br>
+        
+        <label for="comments">Comments:</label>
+        <br>
+        <textarea name="comments" id="comments" cols="40" rows="5">Enter Comments</textarea>
+        <br>
+        
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" name="reset" value="Reset">
+    </form>
 ```
 
 Section 10. HTML Layout
